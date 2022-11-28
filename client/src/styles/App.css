@@ -1,0 +1,123 @@
+.container {
+	display: flex;
+	margin: 30px;
+}
+
+form div label {
+	float: left;
+	width: 100px;
+}
+
+form div {
+	padding-top: 5px;
+}
+
+input[type="text"] {
+	width: 300px;
+	height: 25px;
+}
+
+input[type="date"] {
+	width: 303px;
+	height: 30px;
+}
+
+select {
+	width: 308px;
+	height: 35px;
+}
+
+form {
+	width: 408px;
+	margin: auto;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+th {
+	text-align: left;
+}
+
+td,
+th {
+	height: 30px;
+}
+
+tr {
+	border-bottom: 1px solid grey;
+}
+
+tbody tr:last-child {
+	border-bottom: none;
+}
+
+.error {
+	font-size: 12px;
+	color: #e53e3e;
+	margin-left: 100px;
+}
+
+label {
+	color: #0587ce;
+	font-weight: bold;
+}
+
+button,
+input,
+select {
+	border: 2px solid #0587ce;
+}
+
+::placeholder {
+	opacity: 1;
+	color: #0587ce;
+}
+
+input[type="date"]:not(:valid)::-webkit-datetime-edit {
+	color: #0587ce;
+	opacity: 1;
+}
+
+select:required:invalid {
+	color: #0587ce;
+}
+
+button {
+	padding: 5px 25px;
+	color: #0587ce;
+	font-weight: bold;
+}
+
+.button-wrapper {
+	text-align: right;
+	margin-top: 20px;
+}
+
+.wrapper {
+	width: 50%;
+}
+
+.legend-wrapper {
+	height: 40px;
+	background: #cef1ce;
+	margin: 20px auto;
+	width: 408px;
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px;
+}
+
+.table-wrapper {
+	min-height: 400px;
+	border: 2px solid #0587ce;
+}
+
+.second-legend {
+	text-align: right;
+	margin-top: 10px;
+	color: #0587ce;
+	font-weight: bold;
+}
